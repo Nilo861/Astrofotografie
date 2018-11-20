@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+  <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Astrofotografie-Luca Peters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Framework plus jquery -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+ </head>
+	<style>
+	.parallax-container {
+      height: 500px;    
+	</style>
+    <body>
+	  <nav>
+	 
+    <div class="nav-wrapper  grey darken-4">
+      <a href="#" class="brand-logo">Astrofotografie-Luca Peters</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Galerie</a></li>
+        <li><a href="badges.html">Teleskop</a></li>
+        <li><a href="collapsible.html">Kamera</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="parallax-container">
+      <div class="parallax"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Milky_Way_Galaxy.jpg"></div>
+    </div>
+    <div class="section grey darken-1">
+      <div class="row container">
+        <h2 class="header">Parallax</h2>
+        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Galaxy_SMM_J2135-0102.jpg"></div>
+    </div>
+<script>
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+</script>
+    </body>
+  </html>
