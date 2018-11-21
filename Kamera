@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+
+  <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Astrofotografie-Luca Peters</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Framework plus jquery -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
+ </head>
+
+	<style>
+
+	.parallax-container {
+
+      height: 500px;    
+
+	</style>
+
+    <body>
+
+	  <nav>
+
+	 
+
+    <div class="nav-wrapper  grey darken-4">
+
+      <a href="#" class="brand-logo">Astrofotografie-Luca Peters</a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+        <li><a href="sass.html">Galerie</a></li>
+
+        <li><a href="https://nilo861.github.io/astrofotografie/Teleskop.html">Teleskop</a></li>
+
+        <li><a href="collapsible.html">Kamera</a></li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <div class="parallax-container">
+
+      <div class="parallax"><img src="https://nimax-img.de/Produktbilder/zoom/51382_2/ToupTek-Kamera-EP3-6300-KPA-DeepSky-Color.jpg"></div>
+
+    </div>
+
+    <div class="section grey darken-1">
+
+      <div class="row container">
+
+        <h2 class="header">ToupTek Kamera EP3-6300-KPA DeepSky Color</h2>
+
+        <p class="grey-text text-darken-3 lighten-3"> Die ToupTek Kamera EP3-6300-KPA DeepSky Color... </p>
+
+      </div>
+
+    </div>
+
+    <div class="parallax-container">
+
+      <div class="parallax"><img src="https://i.ebayimg.com/images/i/291934816975-0-1/s-l1000.jpg"></div>
+
+    </div>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.parallax').parallax();
+
+  });
+
+</script>
+
+    </body>
+
+  </html>
